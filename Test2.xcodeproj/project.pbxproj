@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115A97D02BF5172A00D598F8 /* Test2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 115A97CF2BF5172A00D598F8 /* Test2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		115A97D52BF5172A00D598F8 /* Test2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A97D42BF5172A00D598F8 /* Test2App.swift */; };
+		115A97D72BF5172A00D598F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A97D62BF5172A00D598F8 /* ContentView.swift */; };
+		115A97D92BF5172B00D598F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115A97D82BF5172B00D598F8 /* Assets.xcassets */; };
+		115A97DC2BF5172B00D598F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115A97DB2BF5172B00D598F8 /* Preview Assets.xcassets */; };
+		11748AF52BF9112300547A19 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11748AF42BF9112300547A19 /* SongModel.swift */; };
+		11748AFC2BFC939D00547A19 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11748AFB2BFC939D00547A19 /* CircleViewModel.swift */; };
+		11748AFE2BFC973A00547A19 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11748AFD2BFC973A00547A19 /* GameViewModel.swift */; };
+		11F620562BF9042100CA3894 /* CircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F620552BF9042100CA3894 /* CircleModel.swift */; };
+		11F6205A2BF906A800CA3894 /* Once Upon A Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11F620592BF906A800CA3894 /* Once Upon A Time.mp3 */; };
+		11F6205C2BF907B300CA3894 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F6205B2BF907B300CA3894 /* SongManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115A97D12BF5172A00D598F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115A97C32BF5172A00D598F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115A97CE2BF5172A00D598F8;
+			remoteInfo = "Test2 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		115A97E22BF5172B00D598F8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				115A97D02BF5172A00D598F8 /* Test2 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		115A97C92BF5172A00D598F8 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115A97CF2BF5172A00D598F8 /* Test2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		115A97D42BF5172A00D598F8 /* Test2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2App.swift; sourceTree = "<group>"; };
+		115A97D62BF5172A00D598F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		115A97D82BF5172B00D598F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115A97DB2BF5172B00D598F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11748AF42BF9112300547A19 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		11748AFB2BFC939D00547A19 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		11748AFD2BFC973A00547A19 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		11DE80B42BF66EDF00CB04BE /* Test2-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Test2-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11F620552BF9042100CA3894 /* CircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleModel.swift; sourceTree = "<group>"; };
+		11F620592BF906A800CA3894 /* Once Upon A Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Once Upon A Time.mp3"; path = "../../../../../Downloads/Once Upon A Time.mp3"; sourceTree = "<group>"; };
+		11F6205B2BF907B300CA3894 /* SongManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115A97CC2BF5172A00D598F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115A97C22BF5172A00D598F8 = {
+			isa = PBXGroup;
+			children = (
+				115A97D32BF5172A00D598F8 /* Test2 Watch App */,
+				115A97CA2BF5172A00D598F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115A97CA2BF5172A00D598F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115A97C92BF5172A00D598F8 /* Test2.app */,
+				115A97CF2BF5172A00D598F8 /* Test2 Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115A97D32BF5172A00D598F8 /* Test2 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				11748AF62BFC8E5C00547A19 /* ViewModel */,
+				11F620542BF9040E00CA3894 /* Model */,
+				11F620532BF903E900CA3894 /* View */,
+				11F620572BF9063900CA3894 /* Asset */,
+				11DE80B42BF66EDF00CB04BE /* Test2-Watch-App-Info.plist */,
+				115A97D42BF5172A00D598F8 /* Test2App.swift */,
+				115A97D82BF5172B00D598F8 /* Assets.xcassets */,
+				115A97DA2BF5172B00D598F8 /* Preview Content */,
+			);
+			path = "Test2 Watch App";
+			sourceTree = "<group>";
+		};
+		115A97DA2BF5172B00D598F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				115A97DB2BF5172B00D598F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11748AF62BFC8E5C00547A19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11F6205B2BF907B300CA3894 /* SongManager.swift */,
+				11748AFB2BFC939D00547A19 /* CircleViewModel.swift */,
+				11748AFD2BFC973A00547A19 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11F620532BF903E900CA3894 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				115A97D62BF5172A00D598F8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11F620542BF9040E00CA3894 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11F620552BF9042100CA3894 /* CircleModel.swift */,
+				11748AF42BF9112300547A19 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11F620572BF9063900CA3894 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				11F620582BF9064300CA3894 /* Audio */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		11F620582BF9064300CA3894 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				11F620592BF906A800CA3894 /* Once Upon A Time.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115A97C82BF5172A00D598F8 /* Test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115A97E32BF5172B00D598F8 /* Build configuration list for PBXNativeTarget "Test2" */;
+			buildPhases = (
+				115A97C72BF5172A00D598F8 /* Resources */,
+				115A97E22BF5172B00D598F8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115A97D22BF5172A00D598F8 /* PBXTargetDependency */,
+			);
+			name = Test2;
+			productName = Test2;
+			productReference = 115A97C92BF5172A00D598F8 /* Test2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		115A97CE2BF5172A00D598F8 /* Test2 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115A97DF2BF5172B00D598F8 /* Build configuration list for PBXNativeTarget "Test2 Watch App" */;
+			buildPhases = (
+				115A97CB2BF5172A00D598F8 /* Sources */,
+				115A97CC2BF5172A00D598F8 /* Frameworks */,
+				115A97CD2BF5172A00D598F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test2 Watch App";
+			productName = "Test2 Watch App";
+			productReference = 115A97CF2BF5172A00D598F8 /* Test2 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115A97C32BF5172A00D598F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					115A97C82BF5172A00D598F8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					115A97CE2BF5172A00D598F8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 115A97C62BF5172A00D598F8 /* Build configuration list for PBXProject "Test2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115A97C22BF5172A00D598F8;
+			productRefGroup = 115A97CA2BF5172A00D598F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115A97C82BF5172A00D598F8 /* Test2 */,
+				115A97CE2BF5172A00D598F8 /* Test2 Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115A97C72BF5172A00D598F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115A97CD2BF5172A00D598F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115A97DC2BF5172B00D598F8 /* Preview Assets.xcassets in Resources */,
+				11F6205A2BF906A800CA3894 /* Once Upon A Time.mp3 in Resources */,
+				115A97D92BF5172B00D598F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115A97CB2BF5172A00D598F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11748AFE2BFC973A00547A19 /* GameViewModel.swift in Sources */,
+				11748AFC2BFC939D00547A19 /* CircleViewModel.swift in Sources */,
+				11F620562BF9042100CA3894 /* CircleModel.swift in Sources */,
+				11748AF52BF9112300547A19 /* SongModel.swift in Sources */,
+				115A97D72BF5172A00D598F8 /* ContentView.swift in Sources */,
+				11F6205C2BF907B300CA3894 /* SongManager.swift in Sources */,
+				115A97D52BF5172A00D598F8 /* Test2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115A97D22BF5172A00D598F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115A97CE2BF5172A00D598F8 /* Test2 Watch App */;
+			targetProxy = 115A97D12BF5172A00D598F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		115A97DD2BF5172B00D598F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115A97DE2BF5172B00D598F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		115A97E02BF5172B00D598F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 53V73K3799;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test2-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Beat! Slam!";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Want to use motion";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Test2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		115A97E12BF5172B00D598F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 53V73K3799;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test2-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Beat! Slam!";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Want to use motion";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Test2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		115A97E42BF5172B00D598F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53V73K3799;
+				INFOPLIST_KEY_CFBundleDisplayName = Test2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		115A97E52BF5172B00D598F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53V73K3799;
+				INFOPLIST_KEY_CFBundleDisplayName = Test2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.Test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115A97C62BF5172A00D598F8 /* Build configuration list for PBXProject "Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115A97DD2BF5172B00D598F8 /* Debug */,
+				115A97DE2BF5172B00D598F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115A97DF2BF5172B00D598F8 /* Build configuration list for PBXNativeTarget "Test2 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115A97E02BF5172B00D598F8 /* Debug */,
+				115A97E12BF5172B00D598F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115A97E32BF5172B00D598F8 /* Build configuration list for PBXNativeTarget "Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115A97E42BF5172B00D598F8 /* Debug */,
+				115A97E52BF5172B00D598F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115A97C32BF5172A00D598F8 /* Project object */;
+}
